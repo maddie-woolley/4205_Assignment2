@@ -9,5 +9,6 @@ diabetes = pd.read_csv('diabetes.csv')
 # print(diabetes)
 # print(diabetes.describe())
 
-
 # part 2
+corrMatrix=diabetes.corr()
+print(corrMatrix)
